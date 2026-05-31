@@ -1,0 +1,19 @@
+{
+  "name": "CineNova",
+  "short_name": "CineNova",
+  "description": "Catálogo visual de películas y series con perfiles, favoritos y continuidad local.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050705",
+  "theme_color": "#050705",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "794x794",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
