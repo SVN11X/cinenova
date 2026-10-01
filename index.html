@@ -1884,6 +1884,7 @@ border-right: 1px solid rgba(255,255,255,0.06);
       <!-- ── Player ── -->
       <div class="modal-body">
         <div class="player-wrap">
+          <!-- El proveedor rechaza iframes con sandbox y muestra "Playback blocked". -->
           <iframe
             id="movie-frame"
             src=""
@@ -1893,7 +1894,6 @@ border-right: 1px solid rgba(255,255,255,0.06);
             webkitallowfullscreen
             mozallowfullscreen
             allow="autoplay; fullscreen *; encrypted-media; picture-in-picture"
-            sandbox="allow-scripts allow-same-origin allow-presentation allow-forms allow-top-navigation-by-user-activation"
             referrerpolicy="origin"
           ></iframe>
           <div id="next-episode-overlay">

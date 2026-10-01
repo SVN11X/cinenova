@@ -1,4 +1,5 @@
-const CACHE_NAME = "cinenova-static-v2";
+// Renovar el HTML en caché para aplicar la corrección del reproductor.
+const CACHE_NAME = "cinenova-static-v3";
 const STATIC_ASSETS = ["./", "./index.html", "./manifest.json", "./icon.png"];
 
 self.addEventListener("install", (event) => {
